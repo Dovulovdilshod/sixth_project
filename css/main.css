@@ -1,0 +1,263 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kodchasan';
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+body {
+    background: #FFFFFF;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo img {
+    width: 92px;
+    padding: 30px 0;
+    margin-left: 150px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.nav-links .link {
+    line-height: 23px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding: 38px 0;
+}
+.nav-links .link-sp {
+    line-height: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding: 38px 0;
+}
+
+/* header */
+.header {
+    width: 1500px;
+    height: 865px;
+    background: url('../img/background.png') center center / cover no-repeat;
+    border-radius: 30px;
+}
+.text {
+    margin-left: 150px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+}
+.special {
+    margin-left: 230px;
+}
+.header-links {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 125px;
+}
+.link {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.link:hover {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+.links {
+    padding: 18px 50px;
+    margin-left: 30px;
+    border: 1px solid#000000;
+    background: #000000;
+}
+.links:hover {
+    background: transparent;
+}
+
+/* content */
+
+.content-images {
+    display: flex;
+    justify-content: space-between;
+}
+.heading {
+    font-size: 45px;
+    line-height: 72px;
+    font-weight: 700;
+    font-family: 'kodchasan';
+    margin: 130px 0 50px;
+}
+.card-img img {
+    width: 600px;
+}
+.first-card {
+    display: flex;
+    padding-top: 130px;
+    gap: 50px;
+}
+.card-box {
+    width: 500px;
+    margin: 190px 0;
+}
+.card-text {
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: 'kodchasan';
+    margin-top: 31px;
+}
+.heading-card {
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 700;
+    font-family: 'kodchasan';
+}
+.card-img img {
+    width: 600px;
+}
+.button {
+    background: #E58311;
+    padding: 15px 40px;
+    width: 184px;
+    margin-top: 50px;
+}
+.button-link {
+    color: #FFFFFF;
+}
+.second-card {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    gap: 50px;
+}
+.card-button {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #E58211;
+}
+.mini-card-button {
+    margin-top: 50px;
+    border: 1px solid #E58211;
+    padding: 15px 40px;
+    width: 170px;
+}
+.products {
+    margin: 0 100px 130px;
+}
+.products-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.products-heading:first-child {
+    align-items: flex-end;
+}
+.product-link {
+    color: #E58211;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: underline;
+}
+.mini-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.mini-card-heading {
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.prod-heading {
+    font-size: 45px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #000000;
+}
+.mini-card-content {
+    padding: 45px 0 44px 30px;
+}
+.mini-card-img {
+    padding: 29px 0;
+}
+.mini-card-img2 {
+    padding: 43px 40px 43px 61px;
+}
+.mini-card1 {
+    display: flex;
+    background: url('../img/backgroundcard.png') center center / cover no-repeat;
+}
+.mini-card2 {
+    display: flex;
+    background: url('../img/backgroundcard.png') center center / cover no-repeat;
+}
+
+/* footer */
+
+.footer {
+    width: 1200px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    height: 137px;
+    padding: 45px 100px;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 47px;
+}
+.footer-text {
+    margin: 0 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+.google {
+    width: 139px;
+    height: 41px;
+    padding: 7px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-bottom: 17px;
+    margin-left: 120px;
+}
+.appstore {
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.footer-imgs {
+    display: flex;
+    gap: 20px;
+}
